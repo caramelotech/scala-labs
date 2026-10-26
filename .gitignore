@@ -1,0 +1,34 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Scala / sbt
+target/
+project/target/
+project/project/
+.bsp/
+.scala-build/
+.bloop/
+.metals/
+metals.sbt
+*.class
+*.log
+
+# Claude & AI
+.claude/
+.codex/
+bash.exe.stackdump
+
+# Personal
+ref/
